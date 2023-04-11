@@ -1,0 +1,63 @@
+{
+  "name": "ts-starter",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.1.0",
+  "description": "",
+  "author": "rainbowatcher <rainbow-w@qq.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/rainbowatcher/ts-starter#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainbowatcher/ts-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rainbowatcher/ts-starter/issues"
+  },
+  "keywords": [
+    "ts-starter"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pkgroll",
+    "lint": "eslint .",
+    "prepare": "husky install",
+    "release": "bumpp && npm publish",
+    "start": "jiti src/index.ts",
+    "test": "uvu -r jiti/register test",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@rainbowatcher/eslint-config": "0.0.1-beta.13",
+    "@types/node": "^18.15.11",
+    "bumpp": "^9.1.0",
+    "commitlint": "^17.5.1",
+    "eslint": "^8.37.0",
+    "husky": "^8.0.3",
+    "jiti": "^1.18.2",
+    "pkgroll": "^1.9.0",
+    "typescript": "^5.0.3",
+    "uvu": "^0.5.6"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "ts-starter",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.6.1",
+  "packageManager": "pnpm@8.6.3",
   "description": "",
   "author": "rainbowatcher <rainbow-w@qq.com>",
   "license": "MIT",
@@ -49,11 +49,11 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@rainbowatcher/eslint-config": "0.2.3",
-    "@types/node": "^18.16.16",
+    "@rainbowatcher/eslint-config": "0.2.4",
+    "@types/node": "^18.16.18",
     "bumpp": "^9.1.1",
     "commitlint": "^17.6.5",
-    "eslint": "^8.42.0",
+    "eslint": "^8.43.0",
     "husky": "^8.0.3",
     "jiti": "^1.18.2",
     "lint-staged": "^13.2.2",

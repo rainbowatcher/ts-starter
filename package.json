@@ -52,7 +52,7 @@
     "@rainbowatcher/eslint-config": "0.3.0",
     "@types/node": "^18.17.4",
     "bumpp": "^9.1.1",
-    "commitlint": "^17.6.7",
+    "commitlint": "^17.7.1",
     "eslint": "^8.46.0",
     "husky": "^8.0.3",
     "jiti": "^1.19.1",

@@ -2,7 +2,7 @@
   "name": "ts-starter",
   "type": "module",
   "version": "0.0.0",
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": "pnpm@8.7.0",
   "description": "",
   "author": "rainbowatcher <rainbow-w@qq.com>",
   "license": "MIT",
@@ -53,13 +53,13 @@
     "@types/node": "^18.17.11",
     "bumpp": "^9.2.0",
     "commitlint": "^17.7.1",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "husky": "^8.0.3",
     "jiti": "^1.19.3",
     "lint-staged": "^13.3.0",
     "pkgroll": "^1.11.0",
     "typescript": "^5.2.2",
-    "vitest": "^0.34.2"
+    "vitest": "^0.34.3"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue,json}": "eslint --fix"

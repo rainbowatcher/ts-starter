@@ -4,6 +4,16 @@
 
 # ts-starter
 
+## 🚀Features
+
+- Minimal install sized Dependencies
+- VSCode compatible eslint configuration
+- Cross platform CI configuration
+- Pre-Commit lint
+- Auto Changelog generate
+- Smooth release experience
+- Complete package build config
+
 ## Install Size
 
 - [DevDependencies](https://packagephobia.com/result?p=@ava/typescript,@rainbowatcher/eslint-config,bumpp,commitlint,eslint,husky,jiti,pkgroll,typescript,uvu)
@@ -33,10 +43,9 @@ npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 npx husky add .husky/pre-commit 'npx lint-staged'
 ```
 
-3. Replace `ts-starter` to your package name in package.json
+3. Global replace `ts-starter` to your package name in project
 4. Change the author name in `LICENSE`
 5. Clean up the READMEs and remove routes
-
 
 ## License
 

@@ -2,7 +2,7 @@
     "name": "ts-starter",
     "type": "module",
     "version": "0.0.0",
-    "packageManager": "pnpm@8.15.6",
+    "packageManager": "pnpm@9.0.3",
     "description": "",
     "author": "rainbowatcher <rainbow-w@qq.com>",
     "license": "MIT",

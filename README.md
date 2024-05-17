@@ -37,7 +37,7 @@ npx degit https://github.com/rainbowatcher/ts-starter.git <pkg-name>
 
 2. Install dependencies by using `pnpm install`
 3. Setup git hooks
-   
+
 ```bash
 npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
 npx husky add .husky/pre-commit 'npx lint-staged'

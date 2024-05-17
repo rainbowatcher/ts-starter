@@ -2,7 +2,7 @@
     "name": "ts-starter",
     "type": "module",
     "version": "0.0.0",
-    "packageManager": "pnpm@9.0.6",
+    "packageManager": "pnpm@9.1.1",
     "description": "",
     "author": "rainbowatcher <rainbow-w@qq.com>",
     "license": "MIT",
@@ -21,8 +21,8 @@
     "exports": {
         ".": {
             "types": "./dist/index.d.ts",
-            "require": "./dist/index.cjs",
-            "import": "./dist/index.mjs"
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs"
         }
     },
     "main": "./dist/index.mjs",
@@ -49,11 +49,17 @@
         "typecheck": "tsc --noEmit"
     },
     "devDependencies": {
-        "@rainbowatcher/eslint-config": "0.3.8",
-        "@types/node": "^20.12.8",
+        "@rainbowatcher/eslint-config": "^0.6.3",
+        "@rainbowatcher/eslint-config-ignore": "^0.6.3",
+        "@rainbowatcher/eslint-config-js": "^0.6.3",
+        "@rainbowatcher/eslint-config-json": "^0.6.3",
+        "@rainbowatcher/eslint-config-md": "^0.6.3",
+        "@rainbowatcher/eslint-config-prettier": "^0.6.3",
+        "@rainbowatcher/eslint-config-ts": "^0.6.3",
+        "@types/node": "^20.12.12",
         "bumpp": "^9.4.1",
         "commitlint": "^19.3.0",
-        "eslint": "^8.57.0",
+        "eslint": "^9.2.0",
         "husky": "^9.0.11",
         "jiti": "^1.21.0",
         "lint-staged": "^15.2.2",

@@ -12,4 +12,7 @@
         "markdown",
         "yaml",
     ],
+    "cSpell.words": [
+        "degit",
+    ],
 }

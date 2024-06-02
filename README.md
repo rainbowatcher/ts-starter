@@ -6,13 +6,15 @@
 
 ## 🚀Features
 
-- Minimal install sized Dependencies
-- VSCode compatible eslint configuration
-- Cross platform CI configuration
-- Pre-Commit lint
-- Auto Changelog generate
-- Smooth release experience
-- Complete package build config
+- Minimal install sized Dependencies.
+- Eslint v9 rules default enable for `.js`/`.ts`/`.json`/`.md`/`.yaml`...etc.
+- VSCode compatible eslint configuration.
+- Cross platform CI configuration.
+- Conventional commit message style lint.
+- Smooth release experience.
+- Auto Changelog generate.
+- Complete package build configration.
+- Automatic dependency upgrade by renovate.
 
 ## Install Size
 

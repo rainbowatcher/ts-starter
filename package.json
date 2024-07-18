@@ -40,7 +40,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "pkgroll",
+        "build": "tsup src/index.ts --clean --format esm --dts",
         "lint": "eslint .",
         "prepare": "husky",
         "changelog": "conventional-changelog -si CHANGELOG.md",
@@ -65,7 +65,7 @@
         "husky": "^9.0.11",
         "jiti": "^1.21.6",
         "lint-staged": "^15.2.7",
-        "pkgroll": "^2.1.1",
+        "tsup": "^8.1.2",
         "typescript": "^5.5.3",
         "vitest": "^2.0.3"
     },

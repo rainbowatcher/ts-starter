@@ -18,7 +18,7 @@
 
 ## Install Size
 
-- [DevDependencies](https://packagephobia.com/result?p=@ava/typescript,@rainbowatcher/eslint-config,bumpp,commitlint,eslint,husky,jiti,pkgroll,typescript,uvu)
+  - `tsup`: [![install size](https://packagephobia.com/badge?p=tsup)](https://packagephobia.com/result?p=tsup)
   - `typescript`: [![install size](https://packagephobia.com/badge?p=typescript)](https://packagephobia.com/result?p=typescript)
   - `vitest`: [![install size](https://packagephobia.com/badge?p=vitest)](https://packagephobia.com/result?p=vitest)
   - `pkgroll`: [![install size](https://packagephobia.com/badge?p=pkgroll)](https://packagephobia.com/result?p=pkgroll)

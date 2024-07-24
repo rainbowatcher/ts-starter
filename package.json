@@ -45,7 +45,7 @@
         "prepare": "husky",
         "changelog": "conventional-changelog -si CHANGELOG.md",
         "release": "bumpp -all -x 'pnpm changlog' && npm publish",
-        "start": "jiti src/index.ts",
+        "start": "tsx src/index.ts",
         "test": "vitest",
         "typecheck": "tsc --noEmit"
     },
@@ -66,6 +66,7 @@
         "jiti": "^1.21.6",
         "lint-staged": "^15.2.7",
         "tsup": "^8.2.2",
+        "tsx": "^4.16.2",
         "typescript": "^5.5.4",
         "vitest": "^2.0.4"
     },

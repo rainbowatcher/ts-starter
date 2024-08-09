@@ -65,16 +65,20 @@
         "commitlint": "^19.3.0",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.7.0",
-        "husky": "^9.1.1",
         "jiti": "^1.21.6",
         "lint-staged": "^15.2.7",
+        "simple-git-hooks": "^2.11.1",
         "tsup": "^8.2.2",
         "tsx": "^4.16.2",
         "typescript": "^5.5.4",
         "vitest": "^2.0.4"
     },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged",
+        "commit-msg": "npx commitlint --edit $1"
+    },
     "lint-staged": {
-        "*.{js,jsx,ts,tsx,vue,json}": "eslint --fix"
+        "*.{js,jsx,ts,tsx,vue,json}": "eslint"
     },
     "commitlint": {
         "extends": [

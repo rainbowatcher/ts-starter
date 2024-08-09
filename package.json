@@ -40,12 +40,14 @@
     ],
     "scripts": {
         "build": "tsup src/index.ts --clean --format esm --dts",
+        "bench": "vitest bench",
         "lint": "eslint .",
         "prepare": "husky",
         "changelog": "conventional-changelog -si CHANGELOG.md",
         "release": "bumpp --all -x 'pnpm changlog' && npm publish",
         "start": "tsx src/index.ts",
         "test": "vitest",
+        "coverage": "vitest run --coverage",
         "typecheck": "tsc --noEmit"
     },
     "devDependencies": {
@@ -58,6 +60,7 @@
         "@rainbowatcher/eslint-config-prettier": "^0.11.3",
         "@rainbowatcher/eslint-config-ts": "^0.11.3",
         "@types/node": "^20.14.12",
+        "@vitest/coverage-v8": "^2.0.5",
         "bumpp": "^9.4.1",
         "commitlint": "^19.3.0",
         "conventional-changelog-cli": "^5.0.0",
@@ -74,6 +77,8 @@
         "*.{js,jsx,ts,tsx,vue,json}": "eslint --fix"
     },
     "commitlint": {
-        "extends": ["@commitlint/config-conventional"]
+        "extends": [
+            "@commitlint/config-conventional"
+        ]
     }
 }

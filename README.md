@@ -29,6 +29,7 @@ npx degit https://github.com/rainbowatcher/ts-starter.git <pkg-name>
 4. Change the author and repository address in `package.json`
 5. Change the author name in `LICENSE`
 6. Clean up the `README.md`
+7. Remove `renovate.json` or use your own one
 
 ## License
 

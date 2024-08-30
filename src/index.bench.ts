@@ -1,6 +1,8 @@
-import { bench } from "vitest"
+import { bench, describe } from "vitest"
 import { sum } from "."
 
-bench("sum", () => {
-    sum(1, 1)
+describe("sum", () => {
+    bench("sum", () => {
+        sum(1, 1)
+    })
 })

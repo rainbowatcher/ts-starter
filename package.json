@@ -65,7 +65,7 @@
         "commitlint": "^19.5.0",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.11.0",
-        "jiti": "^1.21.6",
+        "jiti": "^2.0.0",
         "lint-staged": "^15.2.10",
         "simple-git-hooks": "^2.11.1",
         "tsup": "^8.3.0",

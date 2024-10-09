@@ -74,9 +74,6 @@
     "simple-git-hooks": {
         "commit-msg": "npx commitlint --edit $1"
     },
-    "lint-staged": {
-        "*.{js,jsx,ts,tsx,vue,json}": "eslint"
-    },
     "commitlint": {
         "extends": [
             "@commitlint/config-conventional"

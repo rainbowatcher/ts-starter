@@ -51,7 +51,7 @@
         "typecheck": "tsc --noEmit"
     },
     "devDependencies": {
-        "@commitlint/config-conventional": "^19.8.1",
+        "@commitlint/config-conventional": "^20.0.0",
         "@rainbowatcher/eslint-config": "^0.21.1",
         "@rainbowatcher/eslint-config-ignore": "^0.21.1",
         "@rainbowatcher/eslint-config-js": "^0.21.1",
@@ -62,7 +62,7 @@
         "@types/node": "^22.18.12",
         "@vitest/coverage-v8": "^4.0.3",
         "bumpp": "^10.3.1",
-        "commitlint": "^19.8.1",
+        "commitlint": "^20.1.0",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.38.0",
         "jiti": "^2.6.1",

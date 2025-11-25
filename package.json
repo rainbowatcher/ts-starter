@@ -39,7 +39,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "tsup src/index.ts --clean --format esm --dts",
+        "build": "tsdown src/index.ts --clean --format esm --dts",
         "bench": "vitest bench",
         "lint": "eslint .",
         "prepare": "simple-git-hooks",
@@ -67,7 +67,7 @@
         "eslint": "^9.39.1",
         "jiti": "^2.6.1",
         "simple-git-hooks": "^2.13.1",
-        "tsup": "^8.5.1",
+        "tsdown": "^0.16.6",
         "typescript": "^5.9.3",
         "vitest": "^4.0.10"
     },

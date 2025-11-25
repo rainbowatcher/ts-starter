@@ -38,14 +38,14 @@ jobs:
 
     strategy:
       matrix:
-        node: [18, 20]
+        node: [20, 22]
         os: [ubuntu-latest]
         include:
           # Active LTS + other OS
           - os: macos-latest
-            node_version: 20
+            node_version: 22
           - os: windows-latest
-            node_version: 20
+            node_version: 22
       fail-fast: false
 
     name: "Test: node-${{ matrix.node_version }}, ${{ matrix.os }}"

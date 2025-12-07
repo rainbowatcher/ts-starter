@@ -51,7 +51,7 @@
         "typecheck": "tsc --noEmit"
     },
     "devDependencies": {
-        "@commitlint/config-conventional": "^20.0.0",
+        "@commitlint/config-conventional": "^20.2.0",
         "@rainbowatcher/eslint-config": "^0.21.1",
         "@rainbowatcher/eslint-config-ignore": "^0.21.1",
         "@rainbowatcher/eslint-config-js": "^0.21.1",
@@ -62,12 +62,12 @@
         "@types/node": "^24.10.1",
         "@vitest/coverage-v8": "^4.0.15",
         "bumpp": "^10.3.2",
-        "commitlint": "^20.1.0",
+        "commitlint": "^20.2.0",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.39.1",
         "jiti": "^2.6.1",
         "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.16.8",
+        "tsdown": "^0.17.0",
         "typescript": "^5.9.3",
         "vitest": "^4.0.15"
     },

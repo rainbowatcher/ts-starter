@@ -2,7 +2,7 @@
     "name": "ts-starter",
     "type": "module",
     "version": "0.0.0",
-    "packageManager": "pnpm@10.26.1",
+    "packageManager": "pnpm@10.26.2",
     "description": "",
     "author": "rainbowatcher <rainbow-w@qq.com>",
     "license": "MIT",
@@ -67,7 +67,7 @@
         "eslint": "^9.39.2",
         "jiti": "^2.6.1",
         "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.18.2",
+        "tsdown": "^0.18.3",
         "typescript": "^5.9.3",
         "vitest": "^4.0.16"
     },

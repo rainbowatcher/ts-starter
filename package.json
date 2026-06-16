@@ -2,7 +2,7 @@
     "name": "ts-starter",
     "type": "module",
     "version": "0.0.0",
-    "packageManager": "pnpm@10.34.1",
+    "packageManager": "pnpm@10.34.3",
     "description": "",
     "author": "rainbowatcher <rainbow-w@qq.com>",
     "license": "MIT",
@@ -59,17 +59,17 @@
         "@rainbowatcher/eslint-config-md": "^0.21.1",
         "@rainbowatcher/eslint-config-prettier": "^0.21.1",
         "@rainbowatcher/eslint-config-ts": "^0.21.1",
-        "@types/node": "^24.12.4",
-        "@vitest/coverage-v8": "^4.1.7",
+        "@types/node": "^24.13.2",
+        "@vitest/coverage-v8": "^4.1.9",
         "bumpp": "^11.1.0",
         "commitlint": "^20.5.3",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.39.4",
         "jiti": "^2.7.0",
         "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.22.1",
+        "tsdown": "^0.22.3",
         "typescript": "^5.9.3",
-        "vitest": "^4.1.7"
+        "vitest": "^4.1.9"
     },
     "simple-git-hooks": {
         "commit-msg": "npx commitlint --edit $1"

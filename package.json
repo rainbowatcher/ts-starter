@@ -68,7 +68,7 @@
         "jiti": "^2.7.0",
         "simple-git-hooks": "^2.13.1",
         "tsdown": "^0.22.7",
-        "typescript": "^5.9.3",
+        "typescript": "^7.0.2",
         "vitest": "^4.1.10"
     },
     "simple-git-hooks": {

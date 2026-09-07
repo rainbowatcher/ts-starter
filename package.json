@@ -61,7 +61,7 @@
         "@rainbowatcher/eslint-config-ts": "^0.21.1",
         "@types/node": "^24.13.3",
         "@vitest/coverage-v8": "^4.1.10",
-        "bumpp": "^11.1.0",
+        "bumpp": "^12.3.0",
         "commitlint": "^20.5.3",
         "conventional-changelog-cli": "^5.0.0",
         "eslint": "^9.39.5",

@@ -59,7 +59,7 @@
         "@rainbowatcher/eslint-config-md": "^0.21.1",
         "@rainbowatcher/eslint-config-prettier": "^0.21.1",
         "@rainbowatcher/eslint-config-ts": "^0.21.1",
-        "@types/node": "^24.13.6",
+        "@types/node": "^26.6.6",
         "@vitest/coverage-v8": "^4.1.11",
         "bumpp": "^11.1.0",
         "commitlint": "^20.5.3",
